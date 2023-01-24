@@ -2,13 +2,12 @@
 
 This repository contains the data and code accompanying the paper: 
 
-*Papadopoulou M., Fürtbauer I., O’Bryan L., Garnier S., Georgopoulou D., Bracken A., Christensen C., and King A.J.
-"Dynamics of collective motion across time and species". Philos. Trans. R. Soc. B https://doi.org/10.1098/rstb.2022-0068.R2*
+*Papadopoulou M., Fürtbauer I., O’Bryan L.R., Garnier S., Georgopoulou D.G., Bracken A.M., Christensen C., and King A.J. (2022)
+"Dynamics of collective motion across time and species". Phil. Trans. R. Soc. B 20220068. https://doi.org/10.1098/rstb.2022.0068*
 
 The code provided is open source, but we kindly ask you to cite the above paper if you make use of it. 
 
 ## Data 
-**(doi: 10.5281/zenodo.7457770)**
 
 The data comprise analysed tragectories of four species: stickleback fish, homing pigeons, goats and chacma baboons. Specifically, they include:
 1. *col_motion_metrics*: metrics of collective motion for each event of collective motion of all species. The columns include: the unique id of events with duration more than 15 seconds (*event*), the 9 metrics that composed the swarm space, the duration of each event in sampling steps (*event_dur*) and the duration in seconds (*event_dur_s*).
@@ -49,6 +48,10 @@ All analysis is performed in _R_, version 4.1. Files:
 
 Package dependencies:
 _dplyr, tseries, lm.br, boot, stringr, reshape2, raster, ggplot2, cowplot, wesanderson, (extrafont)_
+
+## Funding
+
+This work is supported by an Office for Naval Research (ONR) Global Grant (N629092112030) awarded to Andrew J. King.
 
 ## Contact
 * For any further information, email **Marina Papadopoulou** at: <m.papadopoulou.rug@gmail.com>
