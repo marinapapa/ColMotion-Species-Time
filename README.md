@@ -1,5 +1,7 @@
 # Collective motion across species and time
 
+[![DOI](https://zenodo.org/badge/547367442.svg)](https://zenodo.org/badge/latestdoi/547367442)
+
 This repository contains the data and code accompanying the paper: 
 
 *Papadopoulou M., Fürtbauer I., O’Bryan L.R., Garnier S., Georgopoulou D.G., Bracken A.M., Christensen C., and King A.J. (2022)
